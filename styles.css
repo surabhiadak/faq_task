@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.faq-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+h1 {
+    font-size: 30px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.faq-list {
+    list-style-type: none; 
+    padding: 10px;
+}
+
+.faq-item {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.question {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.answer {
+    display: none;
+    margin: 30px 0 0;
+}
+
+.answer.active {
+    display: block;
+}
+
+#load-more-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+ 
+    
+
+
+
+
+
+
+
+
