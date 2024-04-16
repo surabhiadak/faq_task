@@ -26,11 +26,11 @@ This project is a FAQ page that displays a list of questions and corresponding a
 
 ### Requirements Gathering
 
-As a UI developer, it is crucial to understand the exact content expected to appear on the web page. Then it is important to understand how easy it can made for the end user to interact with the content on the web page. In this project, the rendering of the data fetched from API should be displayed in the list format is the primary goal. Additionally, Designing a button with Load More functionality to get more questions until no more questions left is another requirement.
+As a UI developer, it is crucial to understand the exact content expected to appear on the web page. Then it is important to understand how easy it can be made for the end user to interact with the content on the web page. In this project, the rendering of the data fetched from API should be displayed in the list format is the primary goal. Additionally, Designing a button with Load More functionality to get more questions until no more questions left is another requirement.
 
 ### Design and Setup
 
-After understanding the requirements, it is vital to think the design in mind. Kaufland FAQ page has been referred to make the layout and design in more better way. The rough wireframe of the look and feel of the web page has been designed.
+After understanding the requirements, it is vital to think the design in mind. Kaufland FAQ page has been referred to understand the layout and design in more better way. The rough wireframe of the look and feel of the web page has been designed.
 
 In approaching the development of the web page, initially the JavaScript came to mind. The data can be fetched from the provided API using fetch and rendering records dynamically on the webpage using eventListener is the first thing that came to mind. While thinking about other ways, Using React Hooks concept was another thing that came to mind. For this task, Javascript has been chosen for simple and straightforward things as this is the small project. If in the future, if the FAQ page grows in complexity then for scalability and state management React or other frameworks/libraries can be used. For the lightweightness and simplicity, plain Javascript has been chosen for this task. The `index.html`, `styles.css` and `script.js` files are created to start writing the logic.
 
@@ -73,6 +73,8 @@ The FAQ page was put through User Acceptance Testing (UAT) to make sure it fulfi
 ### Deployment
 
 - It is a small project so I hosted it on netlify free version: https://faqcodingtask.netlify.app/
+
+
 
 ## Future Optimization
 

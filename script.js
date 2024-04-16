@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const faqList = document.getElementById('faq-list');
 const loadMoreBtn = document.getElementById('load-more-btn');
 let start = 0;
@@ -36,4 +37,6 @@ const limit = 10;
 
     // Initial rendering of records
     renderRecords();
+});
 
+ 
